@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pb.Bench1;
+
+message Bench1
+{
+
+  uint64  time = 1;
+  uint64 nrows = 2;
+  uint64 ncols = 3;
+  repeated double data = 4;
+}
